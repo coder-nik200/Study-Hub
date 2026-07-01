@@ -1,124 +1,160 @@
-# Study Hub
+# 📚 StudyHub
 
-Study Hub is a learning and resource-sharing platform designed to help students organize study materials, collaborate with others, and improve productivity.
+StudyHub is a modern learning platform that helps students discover, organize, and access educational resources in one place. It offers an intuitive interface, responsive design, and a seamless learning experience across all devices.
 
-## Features
+## 🚀 Live Demo
 
-* User authentication and profile management
-* Upload and manage study materials
-* Notes and document sharing
-* Subject-wise resource organization
-* Search and filter functionality
-* Responsive user interface
-* Collaboration and discussion support
+🔗 https://study-frontend-pi.vercel.app/
 
-## Tech Stack
+## 📖 Overview
+
+StudyHub is designed to make learning more organized and accessible. Users can browse study materials, explore courses, manage resources, and enjoy a clean, user-friendly interface built with modern web technologies.
+
+---
+
+## ✨ Features
+
+- 📚 Browse study materials
+- 🔍 Search educational resources
+- 🎯 Organized categories
+- 📱 Fully responsive design
+- ⚡ Fast and optimized performance
+- 🎨 Modern and clean UI
+- 🌙 Smooth animations
+- 🔒 Secure authentication (if implemented)
+- 👤 User profile management
+- 📖 Easy navigation
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 
-* HTML
-* CSS
-* JavaScript
-* React.js
+- React.js
+- Tailwind CSS
+- JavaScript
+- React Router
+- Axios
+- Framer Motion
 
 ### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
 
-### Database
+### Deployment
 
-* MongoDB
+- Vercel
 
-## Project Structure
+---
 
-```bash
-study-hub/
+## 📂 Project Structure
+
+```text
+StudyHub/
 │
-├── client/             # Frontend files
-├── server/             # Backend files
-├── database/           # Database configuration
-├── public/             # Static assets
-├── src/                # Source code
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── services/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
 ├── package.json
+├── vite.config.js
 └── README.md
 ```
 
-## Installation
+---
 
-### Clone the repository
+## ⚙️ Installation
 
-```bash
-git clone https://github.com/your-username/study-hub.git
-```
-
-### Navigate to the project directory
+Clone the repository:
 
 ```bash
-cd study-hub
+git clone https://github.com/coder-nik200/Study-Hub.git
 ```
 
-### Install dependencies
+Navigate to the project folder:
+
+```bash
+cd studyhub
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-## Run the Project
-
-### Start the frontend
+Start the development server:
 
 ```bash
-npm start
+npm run dev
 ```
 
-### Start the backend
+Build for production:
 
 ```bash
-npm run server
+npm run build
 ```
 
-## Environment Variables
+Preview the production build:
 
-Create a `.env` file in the root directory and add the following:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+```bash
+npm run preview
 ```
 
-## API Endpoints
+---
 
-| Method | Endpoint           | Description         |
-| ------ | ------------------ | ------------------- |
-| GET    | /api/resources     | Get all resources   |
-| POST   | /api/resources     | Upload new resource |
-| GET    | /api/users         | Get user details    |
-| POST   | /api/auth/login    | User login          |
-| POST   | /api/auth/register | User registration   |
+## 📸 Screenshots
 
-## Future Improvements
+Add screenshots of your application here.
 
-* Real-time chat system
-* AI-based study recommendations
-* Dark mode support
-* Video lecture integration
-* Mobile application support
+Example:
 
-## Contributing
+- ![Home Page](<Screenshot 2026-04-15 150204.png>)
+- ![Calender](<Screenshot 2026-06-28 125025.png>)
+- ![Dashboard](<Screenshot 2026-04-15 150944.png>)
+- ![ChatBot](<Screenshot 2026-04-15 155639.png>)
 
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your changes
-5. Push to your branch
-6. Create a pull request
+---
 
-## License
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
+
+---
+
+## 👨‍💻 Author
+
+**Nitish Bharti**
+
+- GitHub: https://github.com/coder-nik200/Study-Hub
+- LinkedIn: https://www.linkedin.com/in/nitish-kumar-bharti-631a37359/
+- Portfolio: https://study-frontend-pi.vercel.app/
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
-## Author
+---
 
-Developed for educational purposes.
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.

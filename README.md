@@ -129,7 +129,7 @@ Contributions are welcome!
 
 **Nitish Bharti**
 
-- GitHub: https://github.com/coder-nik200/Study-Hub
+- GitHub: https://github.com/coder-nik200
 - LinkedIn: https://www.linkedin.com/in/nitish-kumar-bharti-631a37359/
 - Portfolio: https://study-frontend-pi.vercel.app/
 
